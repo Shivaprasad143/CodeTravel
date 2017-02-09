@@ -1,0 +1,27 @@
+
+<table class="table table-striped">
+        <thead>
+            <tr>                
+                <th>Employee</th>
+                <th>Project</th>
+                <th>From</th>
+                <th>To</th>
+                <th>StartDate</th>
+                <th>EndDate</th>
+                <th>Purpose</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let D of data">               
+            <td>{{D.name}}</td>   
+            <td>{{D.Project}}</td>         
+            <td>{{D.From}}</td>
+            <td>{{D.To}}</td>
+            <td>{{D.StartDate}}</td>
+            <td>{{D.EndDate}}</td>
+            </tr>           
+        </tbody>
+    </table>
+
+

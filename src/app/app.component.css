@@ -1,0 +1,25 @@
+.navbar-brand {
+    background-color: lavender;   
+}
+
+
+.Domestic
+{    width: 500%;
+    height: 100%;
+     opacity: 10%
+}
+
+.table table-striped
+{
+    margin:auto;
+}
+
+.Dropdown
+{
+    list-style :none;
+}
+
+.btn btn-primary
+{
+    position:fixed;
+}
